@@ -102,7 +102,7 @@ Now that SourceTree trusts the server, you can pull the code down.
 
 1. Open your web browser, go to `https://code.netglobal.gr`, and log in.
 2. Navigate to a repository.
-3. Click the blue **Clone** button near the top right, select the **HTTPS** tab, and copy the URL provided (e.g., `https://code.netglobal.gr/netglobal/some_repo.git`).
+3. Click the blue **Code** button to see the **Clone** options, select the **HTTPS** tab, and copy the URL provided (e.g., `https://code.netglobal.gr/NetGlobal/some_repo.git`).
 4. Open SourceTree and click the **Clone / New** button (or **File >  Clone/New**).
 5. In the **Source Path / URL** box, paste the link you just copied.
 6. Click into the **Destination Path** box. SourceTree will briefly load and might pop up a window asking for your Gitea username and password. Enter them!
@@ -112,3 +112,41 @@ Now that SourceTree trusts the server, you can pull the code down.
 </details>
 
 ***
+
+<details>
+<summary><strong>Step 3A: Git-CLI users</strong></summary>
+
+## Instructions
+1. Open your web browser, go to `https://code.netglobal.gr`, and log in.
+2. Navigate to a repository.
+3. Click the blue **Code** button to see the **Clone** options.
+4. Select the **HTTPS** or **SSH** tab, and copy the URL provided (e.g., `https://code.netglobal.gr/NetGlobal/some_repo.git`, or `ssh://git@code.netglobal.gr:2222/NetGlobal/some_repo.git`).
+5. **(Optional)** Recommendation: Use the SSH cloning method to be able to push locally using an SSH key, withoud the need to enter your credentials.
+   - Open your Terminal (Mac/Linux) or PowerShell/Command Prompt (Windows) and paste the following command, replacing the email with your Gitea email address:
+     ```
+     ssh-keygen -t ed25519 -C "your.name@somemail.gr"
+     ```
+   - Skip the passphrase (press Enter)
+   - Copy the Public Key to your clipboard:
+     - For MacOS users:
+       ```
+       pbcopy < ~/.ssh/id_ed25519.pub
+       ```
+     - For Windows 10/11 users:
+       ```
+       type %USERPROFILE%\.ssh\id_ed25519.pub | clip
+       ```
+     - For Linux users:
+       ```
+       cat ~/.ssh/id_ed25519.pub
+       ```
+## For SSH users only (Instructions):
+1. Go to https://code.netglobal.gr and log in.
+2. Click your profile picture in the top right corner and select Settings.
+3. Go to the SSH / GPG Keys tab.
+4. Click the blue Add Key button.
+5. Give it a name (e.g., "My Macbook Pro").
+6. Paste your copied key into the Content box.
+7. Click Add Key.
+
+</details>
