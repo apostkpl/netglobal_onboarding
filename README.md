@@ -72,3 +72,37 @@ Open your terminal and run these commands to move the certificate and update the
 </details>
 
 ***
+
+<details>
+<summary><strong>Step 3A: SourceTree Users</strong></summary>
+**If you prefer using a visual Git client like SourceTree instead of the command line, follow these steps to bypass the internal security certificate warnings and connect to our private Gitea server.**
+
+### Step 1: Configure SourceTree for Internal Servers
+Because our Gitea server uses an internal NetGlobal security certificate, SourceTree will block the connection by default. We need to tell it to trust our internal network.
+
+**For Windows:**
+1. Open SourceTree and go to **Tools** > **Options**.
+2. Click on the **Git** tab at the top.
+3. Scroll down and check the box that says **Disable SSL certificate validation**.
+4. Click **OK**.
+
+**For Mac:**
+1. Open SourceTree and go to **SourceTree** > **Settings** (or Preferences).
+2. Click on the **Git** tab.
+3. Check the box for **Disable SSL certificate validation**.
+
+*(Note: Since you are securely inside the NetBird VPN tunnel, disabling this specific check in SourceTree is completely safe).*
+
+### Step 2: Clone the Repository
+Now that SourceTree trusts the server, you can pull the code down.
+
+1. Open your web browser, go to `https://code.netglobal.gr`, and log in.
+2. Navigate to a repository.
+3. Click the blue **Clone** button near the top right, select the **HTTPS** tab, and copy the URL provided (e.g., `https://code.netglobal.gr/netglobal/some_repo.git`).
+4. Open SourceTree and click the **Clone / New** button (or **File >  Clone/New**).
+5. In the **Source Path / URL** box, paste the link you just copied.
+6. Click into the **Destination Path** box. SourceTree will briefly load and might pop up a window asking for your Gitea username and password. Enter them!
+7. Choose the local folder on your computer where you want the code to live.
+8. Click **Clone**.
+
+</details>
