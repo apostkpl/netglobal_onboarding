@@ -78,7 +78,7 @@ Open your terminal and run these commands to move the certificate and update the
 <details>
 <summary><strong>Step 3A: SourceTree Users</strong></summary>
 
-
+- ## Instructions
 **If you prefer using a visual Git client like SourceTree instead of the command line, follow these steps to bypass the internal security certificate warnings and connect to our private Gitea server.**
 
 ### Step 1: Configure SourceTree for Internal Servers
