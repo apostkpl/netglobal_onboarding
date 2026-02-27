@@ -49,7 +49,7 @@ Open your terminal and run these commands to move the certificate and update the
 ***
 <details>
 <summary><strong>Step 2: VPN Access via NetBird</strong></summary>
-
+<br>
 1. Download the **NetBird Client** for your OS: [here](https://netbird.io/downloads)
 > Supports Windows, Linux, MacOS, iOS and Android
 2. Install and Launch the App.
@@ -64,7 +64,7 @@ Open your terminal and run these commands to move the certificate and update the
 
 <details>
 <summary><strong>Step 3: Access our repositories (self-hosted Git Server)</strong></summary>
-
+<br>
 1. Navigate to our private [Git server](https://code.netglobal.gr).
 2. Log in with your assigned credentials.
 > If you don't have any credentials yet, contact support.
@@ -75,6 +75,7 @@ Open your terminal and run these commands to move the certificate and update the
 
 <details>
 <summary><strong>Step 3A: SourceTree Users</strong></summary>
+<br>
 **If you prefer using a visual Git client like SourceTree instead of the command line, follow these steps to bypass the internal security certificate warnings and connect to our private Gitea server.**
 
 ### Step 1: Configure SourceTree for Internal Servers
@@ -106,3 +107,5 @@ Now that SourceTree trusts the server, you can pull the code down.
 8. Click **Clone**.
 
 </details>
+
+***
