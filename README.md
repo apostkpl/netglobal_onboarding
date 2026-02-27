@@ -49,7 +49,7 @@ Open your terminal and run these commands to move the certificate and update the
 1. Download the **NetBird Client** for your OS: [here](https://netbird.io/downloads)
 > Supports Windows, Linux, MacOS, iOS and Android
 2. Install and Launch the App.
-3. Right Click the tray icon -> Settings -> Advanced Settings -> Set "Management URL" to https://git.netglobal.gr
+3. Right Click the tray icon -> Settings -> Advanced Settings -> Set "Management URL" to `https://git.netglobal.gr`
 4. Right Click the tray icon -> Connect. If everything went well, you'll be prompted to login with your credentials.
 > If you don't have any credentials yet, contact support.
 5. Once Connected, the tray icon will report as such ("Netbird: Connected") and will show a green tick. You can now access our Git Instance and our Development Environment.
