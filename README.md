@@ -6,18 +6,18 @@
 
 ## Step 0: Trust the NetGlobal Security Certificate (self-signed)
 
-**How to extract the Certificate:**
+- ### How to extract the Certificate:
 1. Open Google Chrome or Microsoft Edge and navigate to our management portal: `https://git.netglobal.gr`
 2. You will see a "Your connection is not private" warning. 
 3. Click the **"Not Secure"** warning icon located in the address bar (next to the URL).
 4. Click on **"Certificate is not valid"** (or the small certificate icon).
 5. A Certificate Viewer window will open. Click on the **Details** tab at the top.
 6. Click the **Export** button at the bottom of the window.
-7. Save the file to your computer as `netglobal.crt` (make sure it saves as a Certificate file, not a text file).
+7. Save the file to your computer.
 
-Follow the instructions for your Operating System:
+**Follow the instructions for your Operating System:**
 
-### Windows (10/11)
+- ### Windows (10/11)
 
 1. Double-click the downloaded `.crt` file.
 2. Click **Install Certificate...**
@@ -26,7 +26,7 @@ Follow the instructions for your Operating System:
 5. Choose **Trusted Root Certification Authorities** and click OK.
 6. Click **Next**, then **Finish**. You should see a "The import was successful" message.
 
-### macOS
+- ### macOS
 
 1. Double-click the downloaded `.crt` file. This will open the **Keychain Access** app.
 2. In the prompt, ensure the keychain is set to **System** and click **Add**. (Enter your Mac password if asked).
@@ -36,7 +36,7 @@ Follow the instructions for your Operating System:
 6. Change the top dropdown ("When using this certificate") to **Always Trust**.
 7. Close the window and enter your Mac password one more time to save. The red "X" should turn into a blue "+".
 
-### Linux (Ubuntu/Debian/Fedora)
+- ### Linux (Ubuntu/Debian/Fedora)
 Open your terminal and run these commands to move the certificate and update the system store:
 1. `sudo cp ~/Downloads/netglobal-ca.crt /usr/local/share/ca-certificates/`
 2. `sudo update-ca-certificates`
