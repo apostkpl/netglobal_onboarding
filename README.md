@@ -4,7 +4,7 @@
 ***
 ***
 <details>
-<summary>**Step 1: Trust the NetGlobal Security Certificate (self-signed)**</summary>
+<summary><strong>Step 1: Trust the NetGlobal Security Certificate (self-signed)</strong></summary>
 
 - ### How to extract the Certificate:
 1. Open Google Chrome or Microsoft Edge and navigate to our management portal: `https://git.netglobal.gr`
@@ -48,7 +48,7 @@ Open your terminal and run these commands to move the certificate and update the
 
 ***
 <details>
-<summary>**Step 2: VPN Access via NetBird**</summary>
+<summary>*<strong>Step 2: VPN Access via NetBird</strong></summary>
 
 1. Download the **NetBird Client** for your OS: [here](https://netbird.io/downloads)
 > Supports Windows, Linux, MacOS, iOS and Android
@@ -63,10 +63,12 @@ Open your terminal and run these commands to move the certificate and update the
 ***
 
 <details>
-<summary>Step 2: Access our repositories (self-hosted Git Server)</summary>
+<summary><strong>Step 2: Access our repositories (self-hosted Git Server)</strong></summary>
 
 1. Navigate to our private [Git server](https://code.netglobal.gr).
 2. Log in with your assigned credentials.
 > If you don't have any credentials yet, contact support.
 > 
 </details>
+
+***
