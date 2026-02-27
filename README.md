@@ -114,7 +114,7 @@ Now that SourceTree trusts the server, you can pull the code down.
 ***
 
 <details>
-<summary><strong>Step 3A: Git-CLI users</strong></summary>
+<summary><strong>Step 3B: Git-CLI users</strong></summary>
 
 ## Instructions
 1. Open your web browser, go to `https://code.netglobal.gr`, and log in.
@@ -140,6 +140,7 @@ Now that SourceTree trusts the server, you can pull the code down.
        ```
        cat ~/.ssh/id_ed25519.pub
        ```
+       
 ## For SSH users only (Instructions):
 1. Go to https://code.netglobal.gr and log in.
 2. Click your profile picture in the top right corner and select Settings.
@@ -148,5 +149,5 @@ Now that SourceTree trusts the server, you can pull the code down.
 5. Give it a name (e.g., "My Macbook Pro").
 6. Paste your copied key into the Content box.
 7. Click Add Key.
-8. 
+
 </details>
