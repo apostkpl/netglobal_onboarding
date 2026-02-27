@@ -67,7 +67,7 @@ Open your terminal and run these commands to move the certificate and update the
 <summary><strong>Step 3: Access our repositories (self-hosted Git Server)</strong></summary>
 
 - ## Instructions
-1. Navigate to our private [Git server](https://code.netglobal.gr).
+1. Navigate to our private Git server `https://code.netglobal.gr`.
 2. Log in with your assigned credentials.
 > If you don't have any credentials yet, contact support.
 
@@ -142,7 +142,7 @@ Now that SourceTree trusts the server, you can pull the code down.
        ```
        
 ## For SSH users only (Instructions):
-1. Go to https://code.netglobal.gr and log in.
+1. Go to `https://code.netglobal.gr` and log in.
 2. Click your profile picture in the top right corner and select Settings.
 3. Go to the SSH / GPG Keys tab.
 4. Click the blue Add Key button.
