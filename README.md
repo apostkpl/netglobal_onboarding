@@ -50,7 +50,7 @@ Open your terminal and run these commands to move the certificate and update the
 <details>
 <summary><strong>Step 2: VPN Access via NetBird</strong></summary>
 
-
+- **Instructions**
 1. Download the **NetBird Client** for your OS: [here](https://netbird.io/downloads)
 > Supports Windows, Linux, MacOS, iOS and Android
 2. Install and Launch the App.
@@ -66,7 +66,7 @@ Open your terminal and run these commands to move the certificate and update the
 <details>
 <summary><strong>Step 3: Access our repositories (self-hosted Git Server)</strong></summary>
 
-
+- **Instructions**
 1. Navigate to our private [Git server](https://code.netglobal.gr).
 2. Log in with your assigned credentials.
 > If you don't have any credentials yet, contact support.
