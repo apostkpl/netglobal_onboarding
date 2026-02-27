@@ -148,5 +148,5 @@ Now that SourceTree trusts the server, you can pull the code down.
 5. Give it a name (e.g., "My Macbook Pro").
 6. Paste your copied key into the Content box.
 7. Click Add Key.
-
+8. 
 </details>
