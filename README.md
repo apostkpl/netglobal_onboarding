@@ -55,6 +55,7 @@ Open your terminal and run these commands to move the certificate and update the
 > If you don't have any credentials yet, contact support.
 5. Once Connected, the tray icon will report as such ("Netbird: Connected") and will show a green tick. You can now access our Git Instance and our Development Environment.
 
+***
 
 ## Step 2: Access our repositories (self-hosted Git Server)
 
