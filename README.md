@@ -10,7 +10,7 @@
 1. Open Google Chrome or Microsoft Edge and navigate to our management portal: `https://git.netglobal.gr`
 2. You will see a "Your connection is not private" warning. 
 3. Click the **"Not Secure"** warning icon located in the address bar (next to the URL).
-4. Click on **"Certificate is not valid"**/**Your connection to this site isn't secure** and then on the small certificate icon.
+4. Click on **"Certificate is not valid"**/**"Your connection to this site isn't secure"** and then on the small certificate icon.
 5. A Certificate Viewer window will open. Click on the **Details** tab at the top.
 6. Click the **Export** button at the bottom of the window.
 7. Save the file to your computer.
