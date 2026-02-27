@@ -40,7 +40,8 @@
 Open your terminal and run these commands to move the certificate and update the system store:
 1. `sudo cp ~/Downloads/netglobal-ca.crt /usr/local/share/ca-certificates/`
 2. `sudo update-ca-certificates`
-3. You should see an output saying `1 added, 0 removed`. 
+3. You should see an output saying `1 added, 0 removed`.
+> If your Distro isn't listed, the same instructions _should_ work. If you encounter any problems, please contact support.
 
 ***
 
