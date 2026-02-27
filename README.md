@@ -3,8 +3,8 @@
 
 ***
 ***
-
-## Step 0: Trust the NetGlobal Security Certificate (self-signed)
+<details>
+<summary>## Step 0: Trust the NetGlobal Security Certificate (self-signed)</summary>
 
 - ### How to extract the Certificate:
 1. Open Google Chrome or Microsoft Edge and navigate to our management portal: `https://git.netglobal.gr`
@@ -42,6 +42,9 @@ Open your terminal and run these commands to move the certificate and update the
 2. `sudo update-ca-certificates`
 3. You should see an output saying `1 added, 0 removed`.
 > If your Distro isn't listed, the same instructions _should_ work. If you encounter any problems, please contact support.
+
+
+</details>
 
 ***
 
