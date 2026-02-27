@@ -76,7 +76,7 @@ Open your terminal and run these commands to move the certificate and update the
 ***
 
 <details>
-<summary><strong>Step 3A: SourceTree Users</strong></summary>
+<summary><strong>Step 3a: SourceTree Users</strong></summary>
 
 - ## Instructions
 **If you prefer using a visual Git client like SourceTree instead of the command line, follow these steps to bypass the internal security certificate warnings and connect to our private Gitea server.**
@@ -114,7 +114,7 @@ Now that SourceTree trusts the server, you can pull the code down.
 ***
 
 <details>
-<summary><strong>Step 3B: Git-CLI users</strong></summary>
+<summary><strong>Step 3b: Git-CLI users</strong></summary>
 
 ## Instructions
 1. Open your web browser, go to `https://code.netglobal.gr`, and log in.
