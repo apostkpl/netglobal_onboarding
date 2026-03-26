@@ -12,6 +12,7 @@
 > Supports Windows, Linux, MacOS, iOS and Android
 2. Install and Launch the App.
 3. Right Click the tray icon -> Settings -> Advanced Settings -> Set "Management URL" to `https://vpn.netglobal.gr`
+> Linux users may have to do this step via CLI, as the icon may be missing from the tray by default.
 4. Right Click the tray icon -> Connect. If everything went well, you'll be prompted to login with your credentials.
 > If you don't have any credentials yet, contact support.
 5. Once Connected, the tray icon will report as such ("Netbird: Connected") and will show a green tick. You can now access our Git Instance and our Development Environment.
