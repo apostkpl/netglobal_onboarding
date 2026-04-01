@@ -83,12 +83,13 @@ Now that SourceTree trusts the server, you can pull the code down.
 5. Paste:
    
    ```git clone https://git.netglobal.gr/NetGlobal/some_repo.git```
+   
    OR
    
    ```git clone git@git.netglobal.gr:NetGlobal/some_repo.git```
    
    on your terminal.
-6. **(Optional)** Recommendation: Use the SSH cloning method to be able to push locally using an SSH key, withoud the need to enter your credentials.
+7. **(Optional)** Recommendation: Use the SSH cloning method to be able to push locally using an SSH key, withoud the need to enter your credentials.
    - Open your Terminal (Mac/Linux) or PowerShell/Command Prompt (Windows) and paste the following command, replacing the email with your Gitea email address:
      ```
      ssh-keygen -t ed25519 -C "your.name@somemail.gr"
